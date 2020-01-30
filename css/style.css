@@ -3,9 +3,6 @@ html {
 }
 body {
     box-sizing: border-box;
-    /* border: 15px solid white; */
-    /* max-height: 100vh; */
-    background-image: url(../q.jpg);
     background-position: top;
     /* overflow: auto; */
     font-family: inherit;
@@ -68,7 +65,6 @@ blockquote:before {
 }
 .section--header {
     min-height: 740px;
-    background-image: url(../img/bg--header.jpg);
 }
 .section--nav {
     min-height: 0;
@@ -77,9 +73,6 @@ blockquote:before {
     top: 0;
     z-index: 10;
     background-color: #5474fd;
-}
-.section--choose {
-    background-image: url(../img/bg--choose.jpg);
 }
 .section--dark {
     position: relative;
@@ -100,12 +93,6 @@ blockquote:before {
     padding-top: 80px;
     padding-bottom: 82px;
     background-color: #333;
-}
-.section--travel {
-    /* background-image: url(../img/bg--travel0.jpg); */
-}
-.section--review {
-    background-image: url(../img/bg--review.jpg);
 }
 .header {
     max-width: 650px;
@@ -368,4 +355,34 @@ blockquote:before {
 }
 .social__link:focus {
     filter: contrast(1.5);
+}
+.no-webp .section--header {
+    background-image: url(../img/bg--header.jpg);
+}
+.webp .section--header {
+    background-image: url(../img/bg--header.webp);
+}
+.no-webp .section--travel1 {
+    background-image: url(../img/bg--travel1.jpg);
+}
+.webp .section--travel1 {
+    background-image: url(../img/bg--travel1.webp);
+}
+.no-webp .section--travel0 {
+    background-image: url(../img/bg--travel0.jpg);
+}
+.webp .section--travel0 {
+    background-image: url(../img/bg--travel0.webp);
+}
+.no-webp .section--choose {
+    background-image: url(../img/bg--choose.jpg);
+}
+.webp .section--review {
+    background-image: url(../img/bg--review.webp);
+}
+.webp .section--choose {
+    background-image: url(../img/bg--choose.webp);
+}
+.no-webp .section--review {
+    background-image: url(../img/bg--review.jpg);
 }
